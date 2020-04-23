@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Uji Kecepatan Mengetik Gratis - Ayo Uji Kecepatan Mengetikmu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900|Merriweather:300&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <style media="screen">
+    body {
+      color: white;
+      font-family: Roboto;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background: #28313b;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-weight: 200;
+      line-height: 1.1;
+      text-shadow: 0 0 6px rgba(157, 213, 244, .5);
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      text-transform: uppercase;
+    }
+
+    .header-indicator {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .rows {
+      display: block;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .bigone {
+      font-size: 4em;
+      line-height: 1.1em;
+      font-weight: 100 !important;
+    }
+
+    .secondbigone {
+      font-size: 3em;
+    }
+
+    .label {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-family: Roboto;
+      margin: 0px;
+    }
+
+    .text-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: nowrap;
+      background: #3a4551;
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+
+    .text-container:before {
+      flex-wrap: nowrap;
+      content: "";
+      box-shadow: 0 0 20px 15px #3a4551;
+      position: absolute;
+      left: 0px;
+      height: 40px;
+    }
+
+    .text-container:after {
+      flex-wrap: nowrap;
+      content: "";
+      box-shadow: 0 0 20px 15px #3a4551;
+      position: absolute;
+      right: 0px;
+      height: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    .after-text {
+      float: right;
+    }
+
+    .running-text {
+      float: right;
+    }
+
+    .sudah {
+      color: #53bee3;
+    }
+
+    .salah {
+      text-decoration: line-through;
+    }
+
+    span {
+      margin-right: 14px;
+      font-size: 2em;
+      font-family: Merriweather;
+      font-weight: 300;
+      text-transform: lowercase;
+    }
+
+    .user-input {
+      color: #53bee3;
+      outline: none;
+      margin-right: 0px;
+      padding-left: 1px;
+    }
+
+    footer {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      position: fixed;
+      bottom: 2%;
+    }
+
+    footer span {
+      font-size: 11px;
+      text-transform: none;
+    }
+
+    a {
+      color: #73a8ff;
+      text-decoration: none;
+      text-transform: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-indicator">
+    <div class="rows">
+      <div class="row">
+        <h1>Uji Kecepatan Mengetik</h1>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h1 class="bigone" id="wpm">0</h1>
+          <span class="label">Words / Min</span>
+        </div>
+        <div class="column">
+          <h1 class="bigone" id="cpm">0</h1>
+          <span class="label">Chars / Min</span>
+        </div>
+        <div class="column">
+          <h1 class="bigone" id="acc">0</h1>
+          <span class="label">% Accuracy</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h1 class="secondbigone" id="sec">60</h1>
+          <span class="label">Sec</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-container">
+    <div class="container">
+      <div class="after-text" id="after-text">
+        <span id="user-input" class="user-input" tabindex="1" contenteditable="true" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="running-text" id="running-text">
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <h4 id="mulai" style="margin-top: 10px; margin-bottom: 10px;">Langsung ketik untuk mulai test</h4>
+  </div>
+  <footer>
+    <span>made by <a href="https://fb.com/onenrico">Enrico</a> inspired by <a href="https://www.livechat.com/typing-speed-test/">www.livechat.com</a></span>
+  </footer>
+</body>
+<script src="js/jquery.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script type="text/javascript">
+  var kalimats = "Saya Pergi Ke Pasar Bersama Ayah dan Ibu".toLowerCase().split(" ")
+  var sudahs = []
+  var beloms = kalimats
+  var belomFormat = '<span class="belom" id="myid">val</span>'
+  var sudahFormat = '<span class="sudah" id="myid">val</span>'
+  var inputFormat = '<span id="user-input" class="user-input" tabindex="1" contenteditable="true" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></span>'
+  $('document').ready(function() {
+    animation()
+    tick()
+    $('html').on('click', function() {
+      var input = $('#user-input')
+      input.focus();
+    })
+  })
+
+  function tick() {
+    var runnings = ""
+    beloms.forEach((item, i) => {
+      runnings += belomFormat.replace("val", item).replace("myid", "belom" + i)
+    });
+    $('#running-text').html(runnings)
+
+    var afters = ""
+    sudahs.forEach((item, i) => {
+      if (item.startsWith("s:")) {
+        afters += sudahFormat.replace("val", item.substring(2))
+          .replace("sudah", "sudah salah").replace("myid", "sudah" + i)
+      } else {
+        afters += sudahFormat.replace("val", item).replace("myid", "sudah" + i)
+      }
+    });
+    afters += inputFormat
+    $('#after-text').html(afters)
+
+    inputLogic()
+  }
+
+  function tick2(next, current) {
+    var input = $('#user-input')
+    var nchar = [...next]
+    var cchar = [...current]
+    var removed = 0
+    var wrong = false
+    input.removeClass("salah")
+    cchar.forEach((item, i) => {
+      if (i < nchar.length) {
+        if (item == nchar[i]) {
+          removed++
+        } else {
+          wrong = true
+        }
+      } else {
+        wrong = true
+      }
+    });
+    if (wrong) {
+      input.addClass("salah")
+    }
+    $('#running-text').children().first().text(next.substring(removed))
+  }
+
+  function inputLogic() {
+    var input = $('#user-input')
+    var runnings = $('#running-text')
+    var nextTarget = $('#running-text').children().first().text()
+    input.focus();
+    input.on('input', function() {
+      start()
+      var current = input.text().slice(-1)
+      if (current == " ") {
+        if (input.text().length == 1) {
+          input.text("")
+        } else {
+          var removed = beloms.shift()
+          if (input.text().trim() == removed) {
+            words++
+            chars += removed.length
+            sudahs.push(removed)
+            metric()
+          } else {
+            sudahs.push("s:" + input.text().trim())
+            metric()
+          }
+          beloms.push(removed)
+          tick()
+        }
+      } else {
+        tick2(nextTarget, input.text())
+      }
+
+    })
+  }
+
+  function animation() {
+    var cdeg = 0
+    setInterval(function() {
+      $('.header-indicator').css('background-image', 'linear-gradient(' + cdeg + 'deg, #485461 0%, #28313b 74%)')
+      cdeg += Math.random()
+    }, 10)
+  }
+
+  var started = false
+  var words = 0
+  var chars = 0
+  var accuracy = 100
+  var seconds = 60
+
+  function hitungAcc() {
+    var betul = 0
+    sudahs.forEach((item, i) => {
+      if (!item.startsWith("s:")) {
+        betul++
+      }
+    });
+    accuracy = (betul / sudahs.length) * 100
+    accuracy = Math.round(accuracy * 10) / 10
+  }
+
+  function metric() {
+    hitungAcc()
+    if (seconds <= 0) return
+    $('#wpm').text(words)
+    $('#cpm').text(chars)
+    $('#acc').text(accuracy)
+  }
+
+  function start() {
+    if (started) return
+    started = true
+    $('#mulai').hide()
+    var id = setInterval(function() {
+      seconds--
+      if (seconds == 0) {
+        clearInterval(id)
+        Swal.fire({
+          icon: 'info',
+          title: 'Kamu mendapat '+words+" wpm",
+          text: 'rata rata kecepatan mengetik orang berkisar pada 30-40 wpm',
+          showConfirmButton: false
+        })
+      }
+      $('#sec').text(seconds)
+    }, 1000)
+  }
+</script>
+
+</html>
