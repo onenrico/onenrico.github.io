@@ -1,8 +1,13 @@
 {
   "latest_version": 77,
   "minimum_version": 77,
-  "messages": {
+  "welcome-messages": {
     "enabled": false,
     "text": "Selamat Datang User Sekalian"
+  },
+  "announcement-message":{
+    "enabled": true,
+    "ver": 1,
+    "text": "Server sedang Baik Baik Saja"
   }
 }
