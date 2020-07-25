@@ -1,14 +1,19 @@
 {
-  "maintenance_mode": falce,
-  "latest_version": 77,
-  "minimum_version": 77,
+  "maintenance_mode": false,
+  "latest_version": 78,
+  "minimum_version": 78,
+  "update_message": "
+  Silahkan Update aplikasimu
+  "
   "welcome_messages": {
     "enabled": false,
-    "text": "Selamat Datang User Sekalian"
+    "text": "Selamat Datang User Sekalian",
   },
   "announcement_message":{
     "enabled": true,
     "ver": 1,
-    "text": "Server sedang Baik Baik Saja"
-  }
+    "text": "Server sedang Baik Baik Saja",
+  },
+  "pp1": "h59jlkgjausyhtm2",
+  "qq1": ""
 }
