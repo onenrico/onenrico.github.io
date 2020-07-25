@@ -1,5 +1,8 @@
 {
-  "maintenance_mode": false,
+  "maintenance": {
+    "enabled": false,
+    "message": "Server sedang maintenance, Cobalah Beberapa Saat Lagi :)"
+  },
   "latest_version": 78,
   "minimum_version": 78,
   "update_message": "
