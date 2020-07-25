@@ -5,9 +5,7 @@
   },
   "latest_version": 78,
   "minimum_version": 78,
-  "update_message": "
-      Silahkan Update aplikasimu
-  ",
+  "update_message": "Silahkan Update aplikasimu",
   "welcome_messages": {
     "enabled": false,
     "text": "Selamat Datang User Sekalian",
