@@ -3,16 +3,12 @@
     "enabled": false,
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi :)"
   },
-  "latest_version": 78,
+  "latest_version": 79,
   "minimum_version": 78,
-  "update_message": "Silahkan Update aplikasimu",
-  "welcome_messages": {
-    "enabled": false,
-    "text": "Selamat Datang User Sekalian"
-  },
-  "announcement_message":{
+  "update_message": "Wah Aplikasi mu ketinggalan Update #n#Ayo Segera Update agar terbebas dari Bug dan Menikmati fitur yang lebih banyak",
+  "announcement":{
     "enabled": true,
-    "text": "Server sedang Baik Baik Saja"
+    "text": "Selamat menonton..."
   },
   "pp1": "h59jlkgjausyhtm2",
   "qq1": "wxDnKL7rsvaH7svVUKxlqI83ONtMj0ys2WxZgEr1hsafD8Rsvxo"
