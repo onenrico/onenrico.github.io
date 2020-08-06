@@ -15,11 +15,11 @@
   "update_message": "Ayo Update, ada fitur Bookmark dan History",
   "announcement": {
     "enabled": true,
-    "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n##n#Saat ini kami menyadari ada Bug streaming tidak bisa jalan, akan di perbaiki di update besok"
+    "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n##n#Saat ini kami menyadari ada Bug beberapa judul anime streaming tidak bisa jalan, akan di perbaiki di update besok"
   },
   "announcements": [{
       "enabled": true,
-      "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n##n#Saat ini kami menyadari ada Bug streaming tidak bisa jalan, akan di perbaiki di update besok"
+      "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n#Jangan lupa rate 5 Star terimakasih banyak"
     },
     {
       "enabled": true,
