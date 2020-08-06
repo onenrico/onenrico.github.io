@@ -5,9 +5,9 @@
     "enabled": false,
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
   },
-  "latest_version": 80,
+  "latest_version": 83,
   "minimum_version": 78,
-  "update_message": "Ayo Update, ada fitur ganti Resolusi Streaming (360p, 480p, 1080p)",
+  "update_message": "Ayo Update, ada fitur Bookmark dan History",
   "announcement":{
     "enabled": true,
     "text": "Semoga Harimu Menyenangkan"
