@@ -9,7 +9,7 @@
   "minimum_version": 78,
   "update_message": "Ayo Update, ada fitur Bookmark dan History",
   "announcement":{
-    "enabled": true,
+    "enabled": false,
     "text": "Semoga Harimu Menyenangkan"
   },
   "pp1": "h59jlkgjausyhtm2",
