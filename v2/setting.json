@@ -5,13 +5,26 @@
     "enabled": false,
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
   },
+  "music": {
+    "link": "https://www.dropbox.com/s/fcgn55cxjaedu5g/tg.mp3?dl=1",
+    "title": "Tokyo Ghoul - Unravel"
+  },
   "latest_version": 83,
   "minimum_version": 78,
   "update_message": "Ayo Update, ada fitur Bookmark dan History",
-  "announcement":{
+  "announcement": {
     "enabled": true,
     "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n##n#Saat ini kami menyadari ada Bug streaming tidak bisa jalan, akan di perbaiki di update besok"
   },
+  "announcements": [{
+      "enabled": true,
+      "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n##n#Saat ini kami menyadari ada Bug streaming tidak bisa jalan, akan di perbaiki di update besok"
+    },
+    {
+      "enabled": true,
+      "text": "Nani"
+    }
+  ],
   "pp1": "h59jlkgjausyhtm2",
   "qq1": "wxDnKL7rsvaH7svVUKxlqI83ONtMj0ys2WxZgEr1hsafD8Rsvxo"
 }
