@@ -6,6 +6,7 @@
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
   },
   "music": {
+    "enabled": true,
     "link": "https://www.dropbox.com/s/fcgn55cxjaedu5g/tg.mp3?dl=1",
     "title": "Tokyo Ghoul - Unravel"
   },
