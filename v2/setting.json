@@ -6,6 +6,11 @@
   },
   "music": {
     "enabled": false,
+    "link": "-",
+    "title": "-"
+  },
+  "musicv2": {
+    "enabled": false,
     "link": "https://www.dropbox.com/s/jp5i0uejsfzwbd0/swknu.mp3?dl=1",
     "title": "Shigatsu Wa Kimi No Uso - Hikaru Nara"
   },
