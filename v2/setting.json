@@ -15,9 +15,9 @@
     "title": "Bakemonogatari - Renai Circulation"
   },
   "whatsapp": "https://chat.whatsapp.com/BdJ0BpZr4lC0pKE0qvCpB1",
-  "latest_version": 85,
+  "latest_version": 86,
   "minimum_version": 85,
-  "update_message": "Ayo Update, Kamu ketinggalan banyak fitur",
+  "update_message": "Ada update baru nih, fitur notifikasi ketika anime ongoing release episode baru (khusus bookmark)",
   "announcement": {
     "enabled": true,
     "text": "Tidak ada anime One Piece, Naruto, Bleach#n#masih proses upload#n##n#Saat ini kami menyadari ada Bug beberapa judul anime streaming tidak bisa jalan, akan di perbaiki di update besok"
