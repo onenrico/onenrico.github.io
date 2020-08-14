@@ -16,8 +16,8 @@
   },
   "whatsapp": "https://chat.whatsapp.com/IdJFJORHcnzFC4Kp5tgWv6",
   "latest_version": 88,
-  "minimum_version": 85,
-  "update_message": "Ditemukan update Aplikasi, update berisi pembaruan fitur Search",
+  "minimum_version": 88,
+  "update_message": "Ditemukan update Aplikasi, update berisi pembaruan fitur Search#n#Buka tutup playstore agar bisa diupdate",
   "announcement": {
     "enabled": true,
     "text": "Harap Diupdate Aplikasinya!"
