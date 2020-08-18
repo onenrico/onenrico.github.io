@@ -1,7 +1,7 @@
 {
   "image": "https://i.postimg.cc/c4jtSPXm/ww10-n.jpg",
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
   },
   "music": {
