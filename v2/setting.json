@@ -11,8 +11,8 @@
   },
   "music2": {
     "enabled": true,
-    "link": "https://www.dropbox.com/s/wg7efusue1hvy45/mm15.mp3?dl=1",
-    "title": "Black Clover - Opening 3"
+    "link": "https://www.dropbox.com/s/r13xyzz3pg9h4sf/mm16.mp3?dl=1",
+    "title": "Black Clover - Opening 5"
   },
   "whatsapp": "https://t.me/joinchat/N9tkgBrh6stI_XtE6djz6w",
   "latest_version": 94,
@@ -22,10 +22,12 @@
     "enabled": true,
     "text": "Harap Diupdate Aplikasinya!"
   },
-  "announcements": [{
-    "enabled": true,
-    "text": "Info#n#Semua anime Movie di App ini belum bisa di Play#n#Serta masih banyak Anime yang tidak ada#n#Terimakasih Pengertiannya"
-  }],
+  "announcements": [
+    {
+      "enabled": true,
+      "text": "Info#n#Semua anime Movie di App ini belum bisa di Play#n#Serta masih banyak Anime yang tidak ada#n#Terimakasih Pengertiannya"
+    }
+  ],
   "new": false,
   "custom": {
     "enabled": false,
