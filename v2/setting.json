@@ -28,7 +28,7 @@
       "text": "Sedang terjadi gangguan server, harap tunggu"
     }
   ],
-  "new": true,
+  "new": false,
   "custom": {
     "enabled": false,
     "text": ""
