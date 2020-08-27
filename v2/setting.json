@@ -28,10 +28,10 @@
       "text": "Sedang terjadi gangguan server, harap tunggu"
     }
   ],
-  "new": false,
+  "new": true,
   "custom": {
-    "enabled": false,
-    "text": ""
+    "enabled": true,
+    "text": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
   },
   "pp1": "",
   "qq1": "",
