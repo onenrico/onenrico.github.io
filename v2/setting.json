@@ -1,7 +1,7 @@
 {
   "image": "https://i.postimg.cc/yN2nHt7t/ww15-n.jpg",
   "maintenance": {
-    "enabled": true,
+    "enabled": false,
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
   },
   "music": {
@@ -28,7 +28,7 @@
       "text": "Info#n#Semua Anime genre Movie di App ini belum bisa di Play#n#Serta masih banyak Anime yang tidak ada#n#Terimakasih Pengertiannya"
     }
   ],
-  "new": false,
+  "new": true,
   "custom": {
     "enabled": false,
     "text": ""
