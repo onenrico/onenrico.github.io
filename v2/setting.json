@@ -1,7 +1,7 @@
 {
   "image": "https://i.postimg.cc/sg7hsmcM/IMG-20200830-172620.jpg",
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
   },
   "music": {
