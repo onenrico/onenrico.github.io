@@ -22,19 +22,10 @@
     "enabled": true,
     "text": "Harap Diupdate Aplikasinya!"
   },
-<<<<<<< HEAD
   "announcements": [{
     "enabled": true,
-    "text": "Selamat hari Senin, untuk bertanya tanya jangan lupa join grup Telegram kami ya, tekan tombol chat di pojok kanan bawah#n##n#~Admin"
+    "text": "Akan ada Big Update⭐ tanggal 20 September ⏳, akan ditambah anime One Piece 😍, Naruto 😍, Dll Serta menambahkan movie movie 🥰 agar bisa ditonton dengan nyaman, terimakasih banyak bagi yg telah membeli Premium berkat kalian App bisa bertahan ❤️"
   }],
-=======
-  "announcements": [
-    {
-      "enabled": true,
-      "text": "Akan ada Big Update⭐ tanggal 20 September ⏳, akan ditambah anime One Piece 😍, Naruto 😍, Dll Serta menambahkan movie movie 🥰 agar bisa ditonton dengan nyaman, terimakasih banyak bagi yg telah membeli Premium berkat kalian App bisa bertahan ❤️"
-}
-  ],
->>>>>>> fdcd26094f4b807f199e454f9f938a2fadb8376a
   "new": false,
   "custom": {
     "enabled": false,
