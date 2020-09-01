@@ -1,8 +1,8 @@
 {
   "image": "https://i.postimg.cc/sg7hsmcM/IMG-20200830-172620.jpg",
   "maintenance": {
-    "enabled": true,
-    "text": "Server sedang maintenance, Cobalah Beberapa Saat Lagi"
+    "enabled": false,
+    "text": "Server sedang maintenance akan ada update, Cobalah Cek Beberapa Saat Lagi"
   },
   "music": {
     "enabled": false,
@@ -15,17 +15,26 @@
     "title": "Dororo - Opening"
   },
   "whatsapp": "https://t.me/joinchat/N9tkgBrh6stI_XtE6djz6w",
-  "latest_version": 96,
-  "minimum_version": 94,
+  "latest_version": 97,
+  "minimum_version": 97,
   "update_message": "Jika anime tidak muncul (loading) maka kalian harus tekan Update#n#Jika tombol update di playstore tidak muncul#n#Tutup dulu playstore nya lalu buka kembali ya :) ",
   "announcement": {
     "enabled": true,
     "text": "Harap Diupdate Aplikasinya!"
   },
+<<<<<<< HEAD
   "announcements": [{
     "enabled": true,
     "text": "Selamat hari Senin, untuk bertanya tanya jangan lupa join grup Telegram kami ya, tekan tombol chat di pojok kanan bawah#n##n#~Admin"
   }],
+=======
+  "announcements": [
+    {
+      "enabled": true,
+      "text": "Akan ada Big Update⭐ tanggal 20 September ⏳, akan ditambah anime One Piece 😍, Naruto 😍, Dll Serta menambahkan movie movie 🥰 agar bisa ditonton dengan nyaman, terimakasih banyak bagi yg telah membeli Premium berkat kalian App bisa bertahan ❤️"
+}
+  ],
+>>>>>>> fdcd26094f4b807f199e454f9f938a2fadb8376a
   "new": false,
   "custom": {
     "enabled": false,
