@@ -22,12 +22,10 @@
     "enabled": true,
     "text": "Harap Diupdate Aplikasinya!"
   },
-  "announcements": [
-    {
-      "enabled": true,
-      "text": "Selamat hari Senin, untuk bertanya tanya jangan lupa join grup Telegram kami ya, tekan tombol chat di pojok kanan bawah#n##n#~Admin"
-}
-  ],
+  "announcements": [{
+    "enabled": true,
+    "text": "Selamat hari Senin, untuk bertanya tanya jangan lupa join grup Telegram kami ya, tekan tombol chat di pojok kanan bawah#n##n#~Admin"
+  }],
   "new": false,
   "custom": {
     "enabled": false,
@@ -35,7 +33,7 @@
   },
   "pp1": "",
   "qq1": "",
-  "sc": "https://otakudesu.tv/",
+  "sc": "https://otakudesu.tv",
   "tempo": [
     "zyhkdlp:1600151933000:0",
     "ggagbb:1600102800000:0",
@@ -43,6 +41,6 @@
     "gaheah:1599930000000:0",
     "faniachan:1600794000000:0",
     "cijbfi:1601053200000:0",
-"ffiehd:1599930000000:0"
+    "ffiehd:1599930000000:0"
   ]
 }
