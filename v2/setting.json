@@ -15,22 +15,22 @@
     "title": "Kimetsu No Yaiba - Opening"
   },
   "whatsapp": "https://t.me/joinchat/N9tkgBrh6stI_XtE6djz6w",
-  "latest_version": 104,
-  "minimum_version": 104,
+  "latest_version": 105,
+  "minimum_version": 105,
   "update_message": "Update terbaru ditemukan#n#Jika tombol update di playstore tidak muncul#n#Tutup dulu playstore nya lalu buka kembali ya :) ",
   "announcement": {
     "enabled": true,
     "text": "Harap Diupdate Aplikasinya!"
   },
-  "announcements": [
-   {
+  "announcements": [{
       "enabled": true,
-      "text": "Kalian bisa cek anime musim lalu di bagian Anime Tamat, perhatikan Jadwal Anime dan lihat Anime baru (masih Episode 1)#n##n#Note: Jika Pembayaran pembelian premium gagal itu artinya saldo anda kurang karna ada Pajak 10% dan (biaya tambahan jika memakai Pulsa)"
-   }
-  ,{
-    "enabled": false,
-    "text": "Akan ada Big Update⭐ tanggal 1 Oktober ⏳, akan ditambah anime One Piece 😍, Naruto 😍, Dll Serta menambahkan movie movie 🥰 agar bisa ditonton dengan nyaman, terimakasih banyak bagi yg telah membeli Premium berkat kalian App bisa bertahan ❤️"
-  }],
+      "text": "Pada Jadwal Hari Minggu di geser ke paling kanan Ada anime One Piece disitu#n##n#Note: Jika Pembayaran pembelian premium gagal itu artinya saldo anda kurang karna ada Pajak 10% dan (biaya tambahan jika memakai Pulsa)"
+    },
+    {
+      "enabled": false,
+      "text": "Akan ada Big Update⭐ tanggal 1 Oktober ⏳, akan ditambah anime One Piece 😍, Naruto 😍, Dll Serta menambahkan movie movie 🥰 agar bisa ditonton dengan nyaman, terimakasih banyak bagi yg telah membeli Premium berkat kalian App bisa bertahan ❤️"
+    }
+  ],
   "new": false,
   "custom": {
     "enabled": false,
@@ -40,5 +40,5 @@
   "qq1": "",
   "sc": "https://otakudesu.tv/",
   "sc2": "https://samehadaku.vip/",
-  "tempo": [  ]
+  "tempo": []
 }
