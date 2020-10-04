@@ -1,5 +1,5 @@
 {
-  "image": "https://i.postimg.cc/QMswyvs6/ww.jpg",
+  "image": "https://i.postimg.cc/ZYpPSzgL/ww7-n.jpg",
   "maintenance": {
     "enabled": false,
     "text": "Server sedang maintenance akan ada update, Cobalah Cek Beberapa Saat Lagi"
@@ -11,12 +11,12 @@
   },
   "music2": {
     "enabled": true,
-    "link": "https://www.dropbox.com/s/jp5i0uejsfzwbd0/swknu.mp3?dl=1",
-    "title": "Shigatsu Wa Kimi No Uso - Opening"
+    "link": "https://www.dropbox.com/s/8476mfvhgp3m3ls/kny.mp3?dl=1",
+    "title": "Kimetsu No Yaiba - Opening"
   },
   "whatsapp": "https://t.me/joinchat/N9tkgBrh6stI_XtE6djz6w",
-  "latest_version": 105,
-  "minimum_version": 105,
+  "latest_version": 104,
+  "minimum_version": 104,
   "update_message": "Update terbaru ditemukan#n#Jika tombol update di playstore tidak muncul#n#Tutup dulu playstore nya lalu buka kembali ya :) ",
   "announcement": {
     "enabled": true,
@@ -25,7 +25,7 @@
   "announcements": [
    {
       "enabled": true,
-      "text": "Pada Jadwal Hari Minggu di geser ke paling kanan Ada anime One Piece disitu#n##n#Note: Jika Pembayaran pembelian premium gagal itu artinya saldo anda kurang karna ada Pajak 10% dan (biaya tambahan jika memakai Pulsa)"
+      "text": "Kalian bisa cek anime musim lalu di bagian Anime Tamat, perhatikan Jadwal Anime dan lihat Anime baru (masih Episode 1)#n##n#Note: Jika Pembayaran pembelian premium gagal itu artinya saldo anda kurang karna ada Pajak 10% dan (biaya tambahan jika memakai Pulsa)"
    }
   ,{
     "enabled": false,
