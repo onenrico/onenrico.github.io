@@ -1,7 +1,7 @@
 {
   "image": "https://i.postimg.cc/76s9M2ky/ww18-n.jpg",
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "text": "Server sedang maintenance akan ada update, Cobalah Cek Beberapa Saat Lagi"
   },
   "music": {
