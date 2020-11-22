@@ -24,7 +24,7 @@
   },
   "announcements": [{
       "enabled": true,
-      "text": "Tekan tombol Lihat Semua pada anime sedang tayang untuk melihat semua jadwal anime ongoing#n##n#Jangan Lupa Rating 5 Star"
+      "text": "Tekan tombol Lihat Semua pada anime sedang tayang untuk melihat semua jadwal anime ongoing#n#Anime yang dibookmark akan mengirim notif ketika update episode baru#n#Jangan Lupa Rating 5 Star"
     }
   ],
   "new": false,
