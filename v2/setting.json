@@ -24,7 +24,7 @@
   },
   "announcements": [{
       "enabled": true,
-      "text": "Anime Winter 2021 Sudah rilis beberapa anime#n#Untuk melihatnya tekan Tombol Lihat Semua pada anime Sedang Tayang#n#Lalu scroll paling bawah ke bagian Acak"
+      "text": "Anime Winter 2021 Sudah rilis beberapa anime#n##n#Untuk melihatnya tekan tombol \"Lihat Semua\" pada anime \"Sedang Tayang\"#n##n#Setelah itu scroll paling bawah ke bagian Acak"
     }
   ],
   "new": false,
