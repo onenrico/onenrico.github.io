@@ -1,5 +1,5 @@
 {
-  "image": "https://i.postimg.cc/RVjDybFY/ww21.jpg",
+  "image": "https://i.postimg.cc/0yZSPDhh/mm22.png",
   "maintenance": {
     "enabled": false,
     "text": "Server sedang maintenance akan ada update, Cobalah Cek Beberapa Saat Lagi"
@@ -11,8 +11,8 @@
   },
   "music2": {
     "enabled": true,
-    "link": "https://www.dropbox.com/s/egcy8aeqdu584la/mm21.mp3?dl=1",
-    "title": "Majo no tabi tabi - Opening"
+    "link": "https://www.dropbox.com/s/w11ma6tojsilscb/mm22.mp3?dl=1",
+    "title": "Comfy Beats - Dreamy Night"
   },
   "whatsapp": "https://t.me/joinchat/N9tkgEjlIxahh4Jw_-4Xgw",
   "latest_version": 108,
@@ -24,7 +24,7 @@
   },
   "announcements": [{
       "enabled": true,
-      "text": "Anime Winter 2021 Sudah rilis beberapa anime untuk melihatnya tekan Tombol Lihat Semua pada anime Sedang Tayang lalu scroll paling bawah ke bagian Acak"
+      "text": "Anime Winter 2021 Sudah rilis beberapa anime#n#Untuk melihatnya tekan Tombol Lihat Semua pada anime Sedang Tayang#n#Lalu scroll paling bawah ke bagian Acak"
     }
   ],
   "new": false,
