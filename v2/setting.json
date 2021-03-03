@@ -1,7 +1,7 @@
 {
   "image": "https://i.postimg.cc/s2JT9kYy/ww12-n.jpg",
   "maintenance": {
-    "enabled": true,
+    "enabled": false,
     "text": "Server sedang proses update V3, harap cek lagi nanti siang"
   },
   "music": {
