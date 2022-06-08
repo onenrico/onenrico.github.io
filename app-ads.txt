@@ -1,5 +1,6 @@
 applovin.com, 1cd24c0bb12e4087795df2971e57ba7b, DIRECT
 adcolony.com, 5d8cbf6671c93a42, RESELLER, 1ad675c9de6b5176
+google.com, pub-8002466359037891, DIRECT, f08c47fec0942fa0
 google.com, pub-1961955285804449, DIRECT, f08c47fec0942fa0
 rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
 openx.com, 540785403, RESELLER, 6a698e2ec38604c6
