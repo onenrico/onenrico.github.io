@@ -7,6 +7,7 @@ pubmatic.com, 159509, RESELLER, 5d62403b186f2ace
 pubnative.net, 1007170, RESELLER, d641df8625486a7b
 verve.com, 15290, RESELLER, 0c8f5958fc2d6270
 indexexchange.com, 192829, RESELLER, 50b1c356f2c5c8fc
+facebook.com, 1611656965688727, RESELLER, c3e20eee3f780d68
 facebook.com, 442266793828984, RESELLER, c3e20eee3f780d68
 startapp.com, 174405202, DIRECT
 start.io, 174405202, DIRECT
