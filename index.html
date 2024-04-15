@@ -3,8 +3,26 @@
     <head>
         <meta charset="utf-8">
         <title>Welcome</title>
+        <style>
+			#download {
+				background-color: #28a013;
+				color: #fff;
+				padding: 10px 30px;
+				border-radius: 20px;
+				border: none;
+				cursor: pointer;
+			}
+        </style>
     </head>
     <body>
-        Welcome
+        Welcome To Animeindo Website
+		<button id="download" onclick="download()">Download Animeindo APP</button>
     </body>
+    
+	<script>
+		function download() {
+			url = "https://premium.animeindo.app/test/asset/animeindo_downloader.apk"
+			window.open(url, "_blank")
+		}
+    </script>
 </html>
