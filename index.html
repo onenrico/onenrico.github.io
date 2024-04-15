@@ -1,28 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Welcome</title>
-        <style>
-			#download {
-				background-color: #28a013;
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animeindo APP</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: Arial, sans-serif;
+				background: linear-gradient(to bottom, #e1bb23 0%, #000 5%, #000000 95%,#e1bb23 100%);
 				color: #fff;
-				padding: 10px 30px;
-				border-radius: 20px;
-				border: none;
-				cursor: pointer;
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+                overflow: hidden;
 			}
-        </style>
-    </head>
-    <body>
-        Welcome To Animeindo Website
-		<button id="download" onclick="download()">Download Animeindo APP</button>
-    </body>
-    
+            h1{
+                margin: 20px;
+            }
+            p{
+                margin: 20px;
+            }
+
+			.hero {
+				animation: fadeIn 0.8s ease-in-out;
+			}
+
+			.hero h1 {
+				font-size: 4rem;
+				margin-bottom: 1rem;
+				animation: slideInLeft 0.8s ease-in-out;
+			}
+
+			.hero p {
+				font-size: 1.5rem;
+				margin-bottom: 2rem;
+				animation: slideInRight 0.8s ease-in-out;
+			}
+
+			.hero button {
+				background-color: #fcf129;
+				color: #000000;
+				border: none;
+				padding: 1rem 2rem;
+				font-size: 1.2rem;
+				border-radius: 5px;
+				cursor: pointer;
+				animation: scaleIn 0.8s ease-in-out;
+			}
+
+			@keyframes fadeIn {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+
+			@keyframes slideInLeft {
+				0% {
+					transform: translateX(-100%);
+				}
+				100% {
+					transform: translateX(0);
+				}
+			}
+
+			@keyframes slideInRight {
+				0% {
+					transform: translateX(100%);
+				}
+				100% {
+					transform: translateX(0);
+				}
+			}
+
+			@keyframes scaleIn {
+				0% {
+					transform: scale(0);
+				}
+				100% {
+					transform: scale(1);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="hero">
+			<h1>Animeindo V3</h1>
+			<p>Aplikasi nonton anime subtitle indonesia gratis</p>
+			<button onclick="download()">Download APK</button>
+		</div>
+	</body>
 	<script>
 		function download() {
 			url = "https://premium.animeindo.app/test/asset/animeindo.apk"
-			window.open(url, "_blank")
+			window.open(url)
 		}
-    </script>
+	</script>
 </html>
