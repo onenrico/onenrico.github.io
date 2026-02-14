@@ -1,105 +1,119 @@
-<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Animeindo APP</title>
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				font-family: Arial, sans-serif;
-				background: linear-gradient(to bottom, #e1bb23 0%, #000 5%, #000000 95%,#e1bb23 100%);
-				color: #fff;
-				height: 100vh;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				text-align: center;
-                overflow: hidden;
-			}
-            h1{
-                margin: 20px;
-            }
-            p{
-                margin: 20px;
-            }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Wibuku</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        background-color: #000;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .parallax {
+        background-image: url(https://i.pinimg.com/736x/a4/41/0f/a4410fa106d00efa89cabe37f3aad443.jpg);
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .parallax::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+      }
+      .content {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+      }
+      h1 {
+        font-size: 4em;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        animation: fadeIn 2s ease-in-out;
+        filter: drop-shadow(0 0 1.1rem rgb(50, 148, 245));
+        text-align: center;
+      }
+      p {
+        font-size: 1.5em;
+        margin: 10px 0 0;
+        animation: fadeIn 5s ease-in-out;
+        color: #ffffffa5;
+      }
+      h4 {
+        animation: fadeIn 6s ease-in-out;
+        color: #fff;
+        font-weight: bolder;
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+      h4 {
+        color: rgb(251, 222, 0);
+      }
+      .animate {
+        display: inline-block;
+        animation: movez 1s infinite alternate-reverse;
+      }
 
-			.hero {
-				animation: fadeIn 0.8s ease-in-out;
-			}
-
-			.hero h1 {
-				font-size: 4rem;
-				margin-bottom: 1rem;
-				animation: slideInLeft 0.8s ease-in-out;
-			}
-
-			.hero p {
-				font-size: 1.5rem;
-				margin-bottom: 2rem;
-				animation: slideInRight 0.8s ease-in-out;
-			}
-
-			.hero button {
-				background-color: #fcf129;
-				color: #000000;
-				border: none;
-				padding: 1rem 2rem;
-				font-size: 1.2rem;
-				border-radius: 5px;
-				cursor: pointer;
-				animation: scaleIn 0.8s ease-in-out;
-			}
-
-			@keyframes fadeIn {
-				0% {
-					opacity: 0;
-				}
-				100% {
-					opacity: 1;
-				}
-			}
-
-			@keyframes slideInLeft {
-				0% {
-					transform: translateX(-100%);
-				}
-				100% {
-					transform: translateX(0);
-				}
-			}
-
-			@keyframes slideInRight {
-				0% {
-					transform: translateX(100%);
-				}
-				100% {
-					transform: translateX(0);
-				}
-			}
-
-			@keyframes scaleIn {
-				0% {
-					transform: scale(0);
-				}
-				100% {
-					transform: scale(1);
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<div class="hero">
-			<h1>Animeindo V3</h1>
-			<p>Aplikasi nonton anime subtitle indonesia gratis</p>
-			<button onclick="download()">Download APK</button>
-		</div>
-	</body>
-	<script>
-		function download() {
-			url = "https://premium.animeindo.app/asset/animeindo.apk"
-			window.open(url)
-		}
-	</script>
+      @keyframes movez {
+        0% {
+          transform: translateX(0px);
+        }
+        100% {
+          transform: translateX(5px);
+        }
+      }
+      .space {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parallax"></div>
+    <div class="content">
+      <h1>Wibuku App</h1>
+      <p>Aplikasi Nonton Anime Gratis</p>
+      <a
+        href="https://play.google.com/store/apps/details?id=wibuku.app.wibuku&amp;hl=id&amp;pli=1"
+        class="href"
+        ><h4>Download Sekarang <span class="animate">&gt;</span></h4></a
+      >
+    </div>
+    <script
+      defer=""
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"8f81dc476951407f","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"95e437e6e91143cf9af3fc9c18e26819"}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
